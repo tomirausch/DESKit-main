@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulacion>
+    <modelo>ejercicio1.estadodelsistema.Ejercicio1</modelo>
+    <contadores>ejercicio1.componentespropios.ContadoresEstadisticosEjercicio1</contadores>
+    <reporte>ejercicio1.componentespropios.GeneradorDeReportesEjercicio1</reporte>
+    <libreria>ejercicio1.componentespropios.LibreriaDeRutinasEjercicio1</libreria>
+    <eventoInicial>
+        <clase>ejercicio1.eventos.EventoArribarACola</clase>
+        <metodoTiempo>tiempoEntreArribosSolicitudes</metodoTiempo>
+    </eventoInicial>
+    <condicionFin>
+        <tipo>cantidad</tipo>
+        <valor>10</valor>
+        <metodoContador>getCantidadSolicitudesProcesadas</metodoContador>
+    </condicionFin>
+</simulacion>
